@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>buhu</title>
+</head>
+<body>
+<h1>Ich bins</h1>
+<ul>
+    <li>ich bin du</li>
+</ul>
+<script>
+    appendMeasurementData = (raceTime) => {
+        const li = document.createElement('li');
+        li.textContent = raceTime.racer;
+        document.getElementsByTagName('ul')[0].appendChild(li);
+    };
+
+    var eventSource = new EventSource('/api/racetimes');
+    eventSource.onmessage = function (e) {
+        appendMeasurementData(JSON.parse(e.data));
+    };
+</script>
+</body>
+</html>
