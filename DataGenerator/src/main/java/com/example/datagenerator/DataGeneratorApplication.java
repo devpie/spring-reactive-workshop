@@ -1,13 +1,13 @@
-package com.example.demo;
+package com.example.datagenerator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RaceTimeServiceApplication {
+public class DataGeneratorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RaceTimeServiceApplication.class, args);
+		SpringApplication.run(DataGeneratorApplication.class, args);
 	}
 
 }

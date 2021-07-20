@@ -1,13 +1,13 @@
-package com.example.demo;
+package com.example.dashboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DataGeneratorApplication {
+public class HallOfFameDashboardApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DataGeneratorApplication.class, args);
+		SpringApplication.run(HallOfFameDashboardApplication.class, args);
 	}
 
 }

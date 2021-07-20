@@ -1,13 +1,13 @@
-package com.example.demo;
+package com.example.racetime;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HallOfFameDashboardApplication {
+public class RaceTimeServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HallOfFameDashboardApplication.class, args);
+		SpringApplication.run(RaceTimeServiceApplication.class, args);
 	}
 
 }
