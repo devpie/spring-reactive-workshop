@@ -24,4 +24,4 @@
 ### Postgresql
 
 * Docker Image runterladen mit `docker pull postgres:13`
-* Postgresql starten mit  `docker run -–name postgres-racing -e POSTGRES_DB=cycling -e POSTGRES_USER=docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres:13`
+* Postgresql starten mit  `docker run -–name postgres-cycling -e POSTGRES_DB=cycling -e POSTGRES_USER=docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres:13`
